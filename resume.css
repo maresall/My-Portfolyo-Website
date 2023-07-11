@@ -1,0 +1,292 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    background-color: #f3f3f3;
+    padding: 50px;
+}
+
+.orange {
+    background-color: orange;
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.text a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22px;
+    float: left;
+    padding-left: 45px;
+    margin-top: -26px;
+}
+
+.text2 {
+    display: inline-block;
+}
+
+.text2 p {
+    color: black;
+    font-size: 16px;
+    font-family: monospace;
+    margin-left: 193px;
+    position: relative;
+    bottom: 23px;
+}
+
+.text3 {
+    color: black;
+    display: flex;
+    justify-content: end;
+}
+
+.text3 ul {
+    display: flex;
+    list-style-type: none;
+    float: right;
+    margin-top: -45px;
+}
+
+.text3 ul li {
+    margin: 4px 10px;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.text3 ul li a {
+    margin-top: -2px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.text3 ul li a:hover {
+    color: orange;
+}
+
+.a1::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.clear::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    margin-top: 50px;
+}
+
+.line-1 {
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    margin-top: 50px;
+}
+
+.left {
+    width: 50%;
+    float: left;
+}
+
+.right {
+    width: 50%;
+    float: left;
+}
+
+.left h1 {
+    font-family: 'Work Sans';
+    text-align: center;
+    margin-top: 25px;
+}
+
+.left h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.title-1 {
+    padding-top: 150px;
+}
+
+.title-1 span {
+    letter-spacing: 1.8px;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.title-1 h3 {
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 5px;
+}
+
+.title-1 p {
+    width: 63%;
+    margin-top: 7px;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.width ul {
+    margin-top: 8rem;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.width ul li {
+    padding-top: 5vh;
+}
+
+.alt {
+    padding-top: 150px;
+}
+
+.cizgi {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.phone {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.number {
+    margin: 15px;
+    padding-left: 50px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.number p {
+    margin-top: 4px;
+}
+
+.email {
+    margin: 15px;
+    padding-left: 50px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.email p {
+    margin-top: 4px;
+}
+
+.follow {
+    margin: 15px;
+    padding-left: 50px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.follow ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6px;
+}
+
+.follow ul li {
+    margin: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.follow ul li a {
+    color: black;
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+    .orange {
+        position: relative;
+        top: 5px;
+    }
+
+    .text a {
+        font-size: 15px;
+    }
+
+    .title-1 {
+        position: relative;
+        right: 130px;
+    }
+
+    .text .text2 p {
+        position: relative;
+        top: -5px;
+        right: 150px;
+        width: 100%;
+    }
+
+    .left h1 {
+        font-size: 22px;
+    }
+
+    .text .text3 {
+        display: none;
+    }
+
+    .right .width {
+        position: relative;
+        right: 110px;
+    }
+
+    .left h3 {
+        float: left;
+        padding-left: 30px;
+    }
+
+    .right .title-1 {
+        margin-top: 20px;
+
+    }
+
+    .alt {
+        margin-top: -30px;
+    }
+
+    .cizgi {
+        margin: 0 auto;
+    }
+
+    .phone {
+        display: block;
+        float: left;
+        position: relative;
+        right: 35px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+    
+}
